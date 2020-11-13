@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html prompt</title>
+    <style>
+      main {
+        width: 70%;
+        margin: 0 auto;
+      }
+			section {
+				margin-bottom: 80px;
+
+				
+			}
+      h1,
+      h2 {
+        text-align: center;
+        background-color: #eedfac;
+        opacity: 0.7;
+      }
+      a {
+        display: block;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: red;
+      }
+      code {
+        display: inline-block;
+        width: 230px;
+      }
+      span {
+        color: #000;
+      }
+			.new_blank-form {
+				background-color:  #eedfac;
+				padding: 20px;
+				text-align: center;
+			}
+			.new_blank-form a {
+				color: green;
+				letter-spacing: 3px;
+				font-weight: 900;
+			}
+    </style>
+  </head>
+  <body>
+    <main>
+			<div class="new_blank-form" >
+				<a href="./form.html">>>> ПЕРЕЙТИ К ФОРМЕ >>></a>
+			</div>
+      <h1>HTML Шпаргалка</h1>
+      <section>
+        <h2>Метаданные документа</h2>
+        <a href="http://htmlbook.ru/html/html">
+          <code>< html >< /html ></code>
+          <span>- корневой элемент html-документа</span>
+        </a>
+        <a href="http://htmlbook.ru/html/head">
+          <code>< head >< /head ></code>
+          <span>- контейнер для метаданных html-документа</span>
+        </a>
+        <a href="http://htmlbook.ru/html/title">
+          <code>< title >< /title ></code>
+          <span>- заголовок / имя html-документа</span>
+        </a>
+        <a href="http://htmlbook.ru/html/link">
+          <code>< link ></code>
+          <span>- подключает внешние таблицы стилей</span>
+        </a>
+        <a href="http://htmlbook.ru/html/meta">
+          <code>< meta ></code>
+          <span>- мета-данные веб-страницы</span>
+        </a>
+        <a href="http://htmlbook.ru/html/style">
+          <code>
+						< style >< /style > 
+					</code>
+          <span>- подключает таблицы стилей</span>
+        </a>
+			</section>
+			<section>
+        <h2>Секционные элементы (Семантика)</h2>
+        <a href="http://htmlbook.ru/html/body">
+          <code>< body >< /body ></code>
+          <span>- тело html-документа</span>
+        </a>
+        <a href="http://htmlbook.ru/html/article">
+          <code>< article >< /article ></code>
+          <span>- раздел контента, образующий независимую часть документа или сайта	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/section">
+          <code>< section >< /section ></code>
+          <span>
+            - логическая область (раздел) страницы, обычно с заголовком	
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/nav">
+          <code>< nav >< /nav ></code>
+          <span>
+            - раздел документа, содержащий навигационные ссылки по сайту	
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/aside">
+          <code>< aside >< /aside ></code>
+          <span>- контент страницы, имеющий косвенное отношение к основному контенту	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/h1">
+          <code>< h1 > --- < /h6 ></code>
+          <span>- заголовки шести уровней	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/header">
+          <code>< header >< /header ></code>
+          <span>
+            - секция для вводной информации сайта или группы навигационных ссылок	
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/footer">
+          <code>< footer >< /footer ></code>
+          <span>
+            - секция для нижнего колонтитула документа или раздела		
+          </span>
+        </a>
+      </section>
+     
+      <section>
+        <h2>Группировка содержимого</h2>
+        <a href="http://htmlbook.ru/html/p">
+          <code>< p >< /p ></code>
+          <span>- параграфы в тексте</span>
+        </a>
+        <a href="http://htmlbook.ru/html/address">
+          <code>< address >< /address ></code>
+          <span>- контактные данные автора документа или статьи</span>
+        </a>
+        <a href="http://htmlbook.ru/html/hr">
+          <code>< hr ></code>
+          <span>- горизонтальная линия</span>
+        </a>
+        <a href="http://htmlbook.ru/html/pre">
+          <code>< pre > < /pre ></code>
+          <span>- выводит текст с пробелами и переносами</span>
+        </a>
+        <a href="http://htmlbook.ru/html/ol">
+          <code>< ol >< /ol ></code>
+          <span>- упорядоченный нумерованный список</span>
+        </a>
+        <a href="http://htmlbook.ru/html/ul">
+          <code>< ul >< /ul ></code>
+          <span>- маркированный список</span>
+        </a>
+        <a href="http://htmlbook.ru/html/li">
+          <code>< li >< /li ></code><span>- элемент списка</span>
+        </a>
+        <a href="http://htmlbook.ru/html/dl">
+          <code>< dl >< /dl ></code>
+          <span>- контейнер для термина и его описания</span>
+        </a>
+        <a href="http://htmlbook.ru/html/dt">
+          <code>< dt >< /dt ></code>
+          <span>- задаёт термин</span>
+        </a>
+        <a href="http://htmlbook.ru/html/dd">
+          <code>< dd > < /dd ></code>
+          <span>- расшифровывает термин</span>
+        </a>
+        <a href="http://htmlbook.ru/html/figure">
+          <code>< figure >< /figure ></code>
+          <span>
+            - независимый контейнер для такого контента как изображения,
+            диаграммы и т.п.
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/figcaption">
+          <code>< figcaption >< /figcaption ></code>
+          <span>- заголовок для элемента < figure ></span>
+        </a>
+        <a href="http://htmlbook.ru/html/main">
+          <code>< main >< /main ></code>
+          <span
+            >- контейнер для уникального основного содержимого в пределах одной
+            страницы сайта</span
+          >
+        </a>
+        <a href="http://htmlbook.ru/html/div">
+          <code>< div >< /div ></code>
+          <span
+            >- контейнер для разделов html-документа, группирует блочные
+            элементы</span
+          >
+        </a>
+      </section>
+      <section>
+        <h2>Табличные данные</h2>
+        <a href="http://htmlbook.ru/html/table">
+          <code>< table >< /table ></code>
+          <span>- html-таблица</span>
+        </a>
+        <a href="http://htmlbook.ru/html/caption">
+          <code>< caption >< /caption ></code>
+          <span>- подпись к таблице</span>
+        </a>
+        <a href="http://htmlbook.ru/html/colgroup">
+          <code>< colgroup >< /colgroup ></code>
+          <span>- контейнер для одного или нескольких < col ></span>
+        </a>
+        <a href="http://htmlbook.ru/html/col">
+          <code>< col > </code>
+          <span>- выбирает для форматирования столбцы</span>
+        </a>
+        <a href="http://htmlbook.ru/html/thead">
+          <code>< thead >< /thead ></code>
+          <span>- блок заголовков таблицы </span>
+        </a>
+        <a href="http://htmlbook.ru/html/tbody">
+          <code>< tbody >< /tbody ></code>
+          <span>- тело таблицы</span>
+        </a>
+        <a href="http://htmlbook.ru/html/tfoot">
+          <code>< tfoot >< /tfoot ></code>
+          <span>- нижний колонтитул таблицы</span>
+        </a>
+        <a href="http://htmlbook.ru/html/tr">
+          <code>< tr >< /tr ></code>
+          <span>- строка таблицы</span>
+        </a>
+        <a href="http://htmlbook.ru/html/th">
+          <code>< th >< /th ></code>
+          <span>- заголовок столбца таблицы </span>
+        </a>
+        <a href="http://htmlbook.ru/html/td">
+          <code>< td > < /td ></code>
+          <span>- ячейка таблицы </span>
+        </a>
+      </section>
+      <section>
+        <h2>Скрипты</h2>
+        <a href="http://htmlbook.ru/html/script">
+          <code>< script >< /script ></code>
+          <span>- подключает сценарии к странице</span>
+        </a>
+        <a href="http://htmlbook.ru/html/noscript">
+          <code>< noscript >< /noscript ></code>
+          <span>- секция, не поддерживающая скрипт</span>
+        </a>
+        <a href="http://htmlbook.ru/html/template">
+          <code>< template >< /template ></code>
+          <span>
+            - фрагменты HTML-кода, которые могут быть клонированы и вставлены в
+            документ скриптом
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/canvas">
+          <code>< canvas >< /canvas ></code>
+          <span>
+            - холст-контейнер для динамического отображения изображений
+          </span>
+        </a>
+      </section>
+      <section>
+        <h2>Встроенное содержимое</h2>
+        <a href="http://htmlbook.ru/html/picture">
+          <code>< picture >< /picture ></code>
+          <span>
+            - контейнер для одного < img / > и ноль или больше < source >
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/source">
+          <code>< source ></code>
+          <span>
+           - местоположение и тип альтернативных медиаресурсов для элементов <
+            picture >, < video >, < audio >
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/img">
+          <code>< img ></code>
+          <span>- html-изображения</span>
+        </a>
+        <a href="http://htmlbook.ru/html/iframe">
+          <code>< iframe > < /iframe ></code>
+          <span>- создаёт встроенный фрейм	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/embed">
+          <code>< embed >< /embed ></code>
+          <span>
+					-	встраивает внешний интерактивный контент или плагин	
+					</span>
+        </a>
+        <a href="http://htmlbook.ru/html/object">
+          <code>< object >< /object ></code>
+          <span>- контейнер для встраивания мультимедиа	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/param">
+          <code>< param ></code><span>- задаёт параметры для плагинов, встраиваемых с помощью элемента <object>	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/audio">
+          <code>< audio >< /audio ></code>
+          <span>- добавляет аудио-файлы	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/video">
+          <code>< video >< /video ></code>
+          <span>- добавляет видео-файлы	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/track">
+          <code>< track > < /track ></code>
+          <span>- субтитры для элементов < audio > и < video >	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/map">
+          <code>< map >< /map></code>
+          <span>
+            - активные области на карте-изображении	
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/area">
+          <code>< area ></code>
+          <span>- гиперссылка с текстом или активная область внутри карты-изображения	</span>
+        </a>        
+			</section>
+			<section>
+        <h2>Семантика текста</h2>
+        <a href="http://htmlbook.ru/html/a">
+          <code>< a >< /a ></code>
+          <span>- гиперссылка</span>
+        </a>
+        <a href="http://htmlbook.ru/html/em">
+          <code>< em >< /em ></code>
+          <span>- выделяет важные фрагменты текста курсивом		</span>
+        </a>
+        <a href="http://htmlbook.ru/html/strong">
+          <code>< strong >< /strong ></code>
+          <span>
+            - выделяет полужирным важный текст		
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/small">
+          <code>< small >< /small ></code>
+          <span>
+            - отображает текст шрифтом меньшего размера		
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/s">
+          <code>< s >< /s ></code>
+          <span>- перечёркивает неактуальный текст		</span>
+        </a>
+        <a href="http://htmlbook.ru/html/q">
+          <code>< q >< /q ></code>
+          <span>- краткая цитата		</span>
+        </a>
+        <a href="http://htmlbook.ru/html/abbr">
+          <code>< abbr >< /abbr ></code>
+          <span>
+            - аббревиатура или акроним	
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/data">
+          <code>< data >< /data ></code>
+          <span>
+            - связывает содержимое с машиночитаемым переводом			
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/time">
+          <code>< time >< /time ></code>
+          <span>- дата / время документа или статьи	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/code">
+          <code>< code >< /code ></code>
+          <span>- фрагмент программного кода			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/samp">
+          <code>< samp >< /samp ></code>
+          <span>
+            - результат выполнения сценария			
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/kbd">
+          <code>< kbd >< /kbd ></code>
+          <span>
+            - текст, вводимый пользователем с клавиатуры			
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/i">
+          <code>< i >< /i ></code>
+          <span>- выделяет текст курсивом без акцента			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/mark">
+          <code>< mark >< /mark ></code>
+          <span>- выделяет фрагменты текста желтым фоном			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/span">
+          <code>< span >< /span ></code>
+          <span>
+            - контейнер для строчных элементов		
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/br">
+          <code>< br ></code>
+          <span>
+            - перенос текста на новую строку				
+          </span>
+        </a>
+			</section>
+			<section>
+        <h2>Правки в тексте</h2>
+        <a href="http://htmlbook.ru/html/del">
+          <code>< del >< /del ></code>
+          <span>- перечёркивает текст, помечая как удаленный	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/ins">
+          <code>< ins >< /ins ></code>
+          <span>- подчёркивает изменения в тексте			</span>
+				</a>
+			</section>
+			<section>
+        <h2>Формы</h2>
+        <a href="http://htmlbook.ru/html/form">
+          <code>< form >< /form ></code>
+          <span>- html-форма	</span>
+        </a>
+        <a href="http://htmlbook.ru/html/label">
+          <code>< label >< /label ></code>
+          <span>- текстовая метка для элемента < input >			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/input">
+          <code>< input ></code>
+          <span>
+            - многофункциональные поля формы			
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/button">
+          <code>< button >< /button ></code>
+          <span>
+            - интерактивная кнопка			
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/select">
+          <code>< select >< /select ></code>
+          <span>- элемент управления с выбором значений из предложенных вариантов < option >			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/datalist">
+          <code>< datalist >< /datalist ></code>
+          <span>- контейнер для выпадающего списка элемента < input > с < option >-значениями			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/optgroup">
+          <code>< optgroup >< /optgroup ></code>
+          <span>
+            - контейнер с заголовком для группы элементов < option >		
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/option">
+          <code>< option >< /option ></code>
+          <span>
+            - вариант (опция) в раскрывающемся списке				
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/textarea">
+          <code>< textarea ></code>
+          <span>- многострочное поле формы		</span>
+        </a>
+        <a href="http://htmlbook.ru/html/output">
+          <code>< output >< /output ></code>
+          <span>- поле для вывода результата вычисления				</span>
+        </a>
+        <a href="http://htmlbook.ru/html/progress">
+          <code>< progress >< /progress ></code>
+          <span>
+            - индикатор выполнения задачи			
+          </span>
+        </a>
+        <a href="http://htmlbook.ru/html/meter">
+          <code>< meter >< /meter ></code>
+          <span>
+            - индикатор измерения в заданном диапазоне				
+          </span>
+				</a>
+				<a href="http://htmlbook.ru/html/fieldset">
+          <code>< fieldset >< /fieldset ></code>
+          <span>- группирует связанные элементы в форме			</span>
+        </a>
+        <a href="http://htmlbook.ru/html/legend">
+          <code>< legend >< /legend ></code>
+          <span>- заголовок элементов формы, сгруппированных с помощью < fieldset >				</span>
+        </a>        
+			</section>
+    </main>
+  </body>
+</html>

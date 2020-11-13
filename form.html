@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My form</title>
+    <style>
+      div {
+        background-color: #eedfac;
+        padding: 20px;
+      }
+      div a {
+        text-decoration: none;
+        color: red;
+        letter-spacing: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div><a href="./index.html"><<<< Вернуться к шпаргалке <<<</a></div>
+    <form>
+      <p>
+        <label>Укажите ваш пол!</label>
+        <label>
+          <input type="radio" name="title" value="mr" />
+          Ж
+        </label>
+        <label>
+          <input type="radio" name="title" value="mrs" />
+          М
+        </label>
+      </p>
+      <p>
+        <label>Ваше имя</label>
+        <input type="text" name="first_name" />
+      </p>
+      <p>
+        <label>Ваша фамилия</label>
+        <input type="text" name="last_name" />
+      </p>
+      <p>
+        <label>Email</label>
+        <input type="email" name="email" />
+      </p>
+      <p>
+        <label>Телефон</label>
+        <input type="tel" name="phone" />
+      </p>
+      <p>
+        <label>Пароль</label>
+        <input type="password" name="password" />
+      </p>
+      <p>
+        <label>Подтвердите пароль</label>
+        <input type="password" name="password_confirm" />
+      </p>
+      <p>
+        <label>Страна</label>
+        <select name="country">
+          <option>Украина</option>
+          <option>Канада</option>
+          <option>Франция</option>
+          <option>Германия</option>
+          <option>Италия</option>
+          <option>Япония</option>
+          <option>Россия</option>
+          <option>Великобритания</option>
+          <option>США</option>
+        </select>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="terms" />
+          Я согласен с <a href="#">условиями использования</a>
+        </label>
+      </p>
+      <p>
+        <button type="submit">Зарегистрироваться</button>
+      </p>
+    </form>
+  </body>
+</html>
